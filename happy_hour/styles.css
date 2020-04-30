@@ -1,0 +1,22 @@
+html{
+    box-sizing: border-box;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+}
+h1{
+    border-radius: 0.4em;
+    border: 4px dashed #ae470a;
+    text-align: center;
+    font-size: 3em;
+}
+strong{
+    font-style: italic;
+    color: lawngreen;
+}

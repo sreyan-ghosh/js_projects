@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+</head>
+<body>
+    <h1>Hello! Welcome to this page.</h1>
+    <hr>
+    <a href="#">Click here to exit</a>
+    <hr>
+    <a href="#" class="reset">Reset</a>
+    <script>
+        var a = document.querySelector('a');
+        a.addEventListener('click', function(){
+            document.querySelector('h1').innerHTML = "Wanna Leave Already?";
+        });
+        var reset = document.querySelector('.reset');
+        reset.addEventListener('click', function(){
+            document.querySelector('h1').innerHTML = "Hello Again!";
+        });
+    </script>
+</body>
+</html>

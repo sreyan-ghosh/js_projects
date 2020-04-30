@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bar Plan Randomizer</title>
+</head>
+<body>
+    <script>
+        var bars = ["Hoppipola", "Brewey", "Siggys", "10 Downing Street", "Biker's Den", "Solidity"];
+        var names = ["Sanjivani","Kinjal", "Sudesha", "Parichay", "Sreyan", "Amrita"];
+
+        var randomNumber1 = Math.floor(Math.random()*bars.length);
+        var barname = bars[randomNumber1];
+        
+        var randomNumber2 = Math.floor(Math.random()*names.length);
+        var friend = names[randomNumber2];
+
+        document.write('<h1>You could go to <strong>' + barname + '</strong> with <strong>' + friend + '.</h1>');
+    </script>
+</body>
+</html>
