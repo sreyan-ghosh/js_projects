@@ -6,4 +6,4 @@
 
 -> Project 3: querying SoundCloud API using AJAX and objects to create a music streaming service and also using LocalStorage to keep the playlist in memory
 
--> Project 4: coming soon...
+-> Project 4: minimalistic visualisation using Tabletop.js
